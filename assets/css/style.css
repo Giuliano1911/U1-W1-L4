@@ -185,6 +185,7 @@ h2 {
 aside p {
   background-color: rgba(242, 242, 242, 255);
   padding: 0.5em;
+  border: 1px solid darkgrey;
 }
 
 aside span {
