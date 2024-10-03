@@ -1,0 +1,225 @@
+html {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  width: 450px;
+}
+
+body {
+  background-image: url(/assets/img/sfondo.png);
+  background-size: 600x;
+  background-repeat: repeat-y;
+  background-position: 50% -25%;
+}
+
+header .box {
+  height: 300px;
+  background-color: rgba(0, 147, 170, 255);
+}
+
+.box {
+  -webkit-box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.62);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+
+header {
+  text-align: center;
+}
+
+#logo {
+  width: 250px;
+  margin: 2em;
+}
+
+header h2 {
+  color: white;
+  font-size: 1.2em;
+}
+
+menu {
+  color: white;
+  list-style: none;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+menu .fas {
+  margin: 0 0.8em;
+}
+
+main .box {
+  background-color: white;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 1em 0;
+  line-height: 45px;
+}
+
+h4 .fas,
+h4 {
+  color: darkgrey;
+}
+
+main h4 {
+  margin: 1.2em 0;
+}
+
+p {
+  margin: 1em 0;
+  line-height: 25px;
+}
+
+strong {
+  text-decoration-line: none;
+  color: rgba(170, 32, 114, 255);
+  font-weight: 600;
+}
+
+ul {
+  list-style: disc;
+  margin: 1.6em;
+  line-height: 20px;
+}
+
+ul span {
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  background-color: lightgray;
+  width: fit-content;
+  display: inline-block;
+}
+
+ol {
+  list-style: decimal;
+  margin: 1em 1.6em;
+  line-height: 20px;
+}
+
+table {
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  border-bottom: 2px solid rgba(61, 102, 195, 255);
+}
+
+caption {
+  font-weight: 500;
+  font-style: italic;
+}
+
+thead {
+  background-color: rgba(61, 102, 195, 255);
+  height: 20%;
+  color: white;
+}
+
+td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+thead td {
+  border-right: 0.1px solid rgba(112, 137, 218, 255);
+}
+
+.background-table {
+  background-color: rgba(242, 242, 242, 255);
+  border-top: 2px solid rgba(231, 231, 232, 255);
+  border-bottom: 2px solid rgba(231, 231, 232, 255);
+}
+
+p a {
+  color: rgba(0, 160, 204, 255);
+  font-weight: 500;
+}
+
+iframe {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  padding: 0.8em;
+  font-weight: 500;
+}
+
+#form-newsletter p {
+  padding: 0.8em;
+  padding-top: 0;
+}
+
+#form-newsletter {
+  background-color: rgba(242, 242, 242, 255);
+  margin: 2em 0;
+  box-sizing: border-box;
+}
+
+#mail-input {
+  border: none;
+  border-bottom: 1px dashed rgba(122, 125, 127, 255);
+  margin: 1em 0.5em 1em 1em;
+  padding: 0.5em;
+  width: 250px;
+}
+
+#submit {
+  background-color: rgba(51, 102, 204, 255);
+  border: none;
+  color: white;
+  padding: 0.5em;
+  width: 70px;
+}
+
+aside p {
+  background-color: rgba(242, 242, 242, 255);
+  padding: 0.5em;
+}
+
+aside span {
+  font-size: 0.7em;
+  padding: 0.6em 0.2em 0.6em 20em;
+}
+
+footer .box {
+  background: rgb(44, 54, 55);
+  background: linear-gradient(
+    0deg,
+    rgba(44, 54, 55, 1) 0%,
+    rgba(16, 68, 88, 1) 51%,
+    rgba(25, 119, 154, 1) 100%
+  );
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+footer h5,
+footer p {
+  padding: 0.6em;
+}
+
+footer h5 {
+  padding-top: 2em;
+}
+
+footer p {
+  padding-bottom: 2em;
+}
+
+footer a {
+  color: rgba(251, 20, 221, 255);
+}
